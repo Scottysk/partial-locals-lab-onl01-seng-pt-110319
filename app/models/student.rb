@@ -22,6 +22,7 @@ class Student < ActiveRecord::Base
     else 
       where('NAME like ?', "%#{query}%")
   end
+end
   
   
   
